@@ -3,7 +3,7 @@ package List.exerciosSize0;
 import java.util.ArrayList;
 import java.util.List;
 
-public class exercio04 {
+public class exercio03 {
     public static void main(String[] args) {
         List<Integer> numeros = new ArrayList<>();
 
