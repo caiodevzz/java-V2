@@ -14,8 +14,7 @@ public class exercio04 {
         numeros.add(1.32);
         numeros.add(3.44);
         numeros.add(6.34);
-        numeros.add(7.82);
-        numeros.add(8.52);
+
 
         System.out.println("Tamanho da lista: " + numeros.size());
 
