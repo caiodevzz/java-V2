@@ -31,9 +31,11 @@ public class TestProduct {
         }
 
         Produto produto = produtoList.stream().filter(x -> x.getPreco() > 100).findFirst().orElse(new Produto("nenhum produto encontrado", 0.0, 0));
+        Produto product = produtoList.stream().filter(x -> x.toLowerCase().contains("tv")).findFirst().orElse(new Produto("nenhum produto encontrado", 0.0, 0));
 
         System.out.print("Produto: ");
         System.out.println(produto);
+        System.out.println(product);
 
         sc.close();
     }

@@ -45,4 +45,8 @@ public class Produto {
     public String toString() {
         return nome + ", R$ " + preco + ", Quantidade: " + quantidade;
     }
+
+    public String toLowerCase() {
+        return nome;
+    }
 }
